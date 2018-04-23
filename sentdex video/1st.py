@@ -1,10 +1,6 @@
 import praw
 
-reddit = praw.Reddit(client_id = "_WkPL3qfOww1xw",
-                     client_secret = "W74sDxX2UGPSFUmnrHGu9dFJkrw",
-                     username = "prasadgujar16",
-                     password = "tooweaktooslow",
-                     user_agent = "prawtutoral")
+
 
 subreddit = reddit.subreddit('python')
 
